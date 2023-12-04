@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: beige;
+}
+h1{
+    color: blueviolet;
+    margin-left: 670px;
+}
+.h1{
+    margin-left: 560px;
+    margin-top: 100px;
+}
+.addItem{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+.addItem button{
+    position: absolute;
+    top: 170px;
+    left: 700px;
+    font-size: medium;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 5px;
+    border-color: brown;
+}
+ .addItem button:hover {background-color: #92f0e5}
+label {
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 6px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(64, 9, 9);
+}
+input {
+    margin-bottom: 10px;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: aqua;
+}
+#itemList { 
+    width: 90%;
+    height: 100vh;
+    border: solid;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    background-color: rgb(240, 227, 146);
+}
+.item {
+    position: relative;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-size: x-large;
+    word-spacing: 15px;
+    width: 96%;
+    height: 50px;
+    border: solid;
+
+}
+.buyButton {
+    margin-left: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 5px;
+    border-color:rgb(184, 66, 11);
+}
+.buyButton:hover {background-color: #ea9952}
